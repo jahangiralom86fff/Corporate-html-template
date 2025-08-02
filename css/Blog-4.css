@@ -1,0 +1,922 @@
+
+/*blog page all css code start now*/
+
+*{
+    font-family: "Rajdhani", sans-serif;;
+}
+
+/*navbar section start now*/
+
+/*top-bar-section start now*/
+
+.top-bar-section {
+    width:100%;
+    background-color: #593def;
+    padding:10px 10px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.top-bar-section .topbar-paragrap{
+   padding-top:3px;
+}
+.top-bar-section .topbar-pragraph{
+    color: white;
+    font-size:16px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+
+
+}
+.top-bar-section .topbar-icon{
+    float: right;
+    padding:0px;
+    width:40%;
+
+}
+.top-bar-section .support-tobbar{
+    float: left;
+    width:60%;
+    padding-left:20%;
+    
+}
+.top-bar-section .topbar-help{
+    color:#9088be;
+    font-size:15px;
+    float: left;
+    text-decoration: none;
+    line-height: 20px;
+}
+.top-bar-section .topbar-icon .topbar-list li{
+    list-style-type:none;
+    margin: 0px 12px;
+    float: left;
+    color: white;
+
+}
+.top-bar-section .topbar-icon .topbar-list li a{
+    color: white;
+}
+
+
+/*top-bar-section End now*/
+
+
+/*navbar section start now */
+.navbar-sectiion{
+    width:100%;
+    padding-top: 18px;
+
+    padding-bottom:130px;
+    background-color: white;
+}
+.navbar-sectiion .navbar-img .toko-navbar li{
+    float: left;
+    list-style-type: none;
+    margin: 0px 10px;
+
+}
+.navbar-sectiion .toko-img{
+    padding-top:-10px;
+}
+.navbar-sectiion .navbar-text{
+    color:#2d2c2c;
+    font-size:28px;
+    font-weight: bold;
+}
+.navbar-sectiion .navbar-contects .nav-bar-email .nav-bar-email-box{
+    float:left;
+    list-style-type: none;
+}
+.navbar-sectiion .navbar-contects .navbar-icon{
+    width: 20%;
+    padding: 15px 15px;
+    border-radius:30px;
+    color: white;
+    background:#593def;
+    text-align: center;
+    float: left;
+}
+.navbar-sectiion .navbar-contects .navbar-paragraph{
+    width: 68%;
+    float: left;
+    font-size: 14px;
+    color: #494848;
+    padding-left:14px;
+
+}
+
+/*navbar section end now */
+
+
+/*second navbar start now*/
+.main-navbar{
+    position: relative;
+}
+.sub-navbar{
+    width:100%;
+    padding-top: 30px;
+    padding-bottom:25px;
+    background-color:#5032f2;
+    border-radius: 6px;
+    position:absolute;
+    top:-79.5px;
+    opacity: 12245255;
+    box-shadow: 0px 0px 16px rgb(12, 12, 12);
+    z-index: 2;
+}
+.main-navbar .sub-navbar .list-navber li{
+    list-style-type: none;
+    float: left;
+    margin: 0px 30px;
+
+}
+.main-navbar .sub-navbar .list-navber li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-transform: capitalize;
+    position: relative;
+}
+.main-navbar .sub-navbar a::after{
+    content: '\f107';
+    font-family: "Font Awesome 6 Free";
+    font-weight:900;
+    position: absolute;
+    top: -3px;
+    right: -20px;
+    transition: all 500ms ease-in-out;
+}
+.main-navbar .sub-navbar a:hover::after{
+    transform: rotate(180deg);
+}
+.main-navbar .sub-navbar a.not-icon::after{
+    display: none;
+}
+.main-navbar .icon-bar{
+    padding-right:20px;
+}
+
+.main-navbar .menu-icon{
+    padding-right:20px;
+    color: white;
+}
+.main-navbar .menu-bar{
+    padding:18px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.button-icon{
+    float:right;
+}
+.button-icon .icon-bar li{
+    list-style-type: none;
+    float: left;
+    padding-left:10px;
+}
+
+.main-navbar .sub-list{
+    position:relative;
+}
+.main-navbar .sub-list .sub-menu{
+    position: absolute;
+    top:46px;
+    left:-20px;
+    right:0px;
+    width:200px;
+    height:110px;
+    flex-direction: column;
+    padding: 18px 0px;
+    color:#2d2c2c;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(94, 86, 93, 0.91);
+    overflow: hidden;
+    opacity: 0;
+    transform: perspective(300px) rotateX(-18deg);
+    visibility:hidden;
+    transition: all 400ms ease-in-out;
+
+}
+.main-navbar .sub-list:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(300px) rotateX(0deg);
+}
+
+.main-navbar .sub-list .sub-menu li{
+    padding:6px 0px;
+    transition: all 500ms ease-in-out;
+}
+.main-navbar .sub-list .sub-menu li:hover{
+    transform: translateX(16px);
+}
+.main-navbar .sub-list .sub-menu li a{
+    text-decoration: none;
+    color:#2d2c2c;
+    font-size: 16px;
+    font-family:"Rajdhani", sans-serif;
+    position:relative;
+}
+.main-navbar .sub-list .sub-menu li a::before{
+    content: '\f061';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    position: absolute;
+    top: -3px;
+    right: 20px;
+    left:-50px;
+    transition: all 500ms ease-in-out;
+}
+.main-navbar .sub-list .sub-menu li a:hover::before{
+    transform: translateX(30px);
+}
+
+/*second navbar End now*/
+
+/*navbar section End now*/
+
+
+/*faq section start now*/
+.faq-home{
+    width:100%;
+    padding:200px 0px;
+    background:url(../img-folder/Blog-4/img-folder/img-folder/faq-home/FAQ-2.png);
+    position: relative;
+    overflow: hidden;
+
+}
+.faq-home::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height:100%;
+    top:0px;
+    left: 0px;
+    background-color: rgba(16, 12, 16, 0.8);
+}
+.faq-home .faq-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    
+}
+.faq-home .faq-title .text{
+    position: absolute;
+    color:white;
+    text-decoration: none;
+    font-size:46px;
+    z-index: 4255;
+    left:0px;
+  
+ 
+}
+.faq-home .faq-title .txt{
+    position: absolute;
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    z-index: 4255;
+    left:0px;
+    top:30px;
+    width:100%;
+  
+
+}
+.faq-home .heading-title{
+    position: relative;
+}
+.faq-home .heading-title .txt{
+    position: absolute;
+    z-index: 2544;
+    color:white;
+    text-decoration: none;
+    top:30px;
+    word-spacing: 3px;
+
+}
+.faq-home .heading-title .txt .faq-text{
+    color:blue;
+}
+.faq-home .shape-topbar{
+    position: relative;
+}
+.faq-home .shape-topbar img{
+    position: absolute;
+    top:-440px;
+    left:60%;
+    z-index: 12544;
+    transform: rotate(-3deg);
+}
+.faq-home .shape{
+    position: relative;
+}
+.faq-home .shape img{
+    position: absolute;
+    top:-90px;
+    left:18%;
+    z-index: 45541;
+}
+
+/*faq section End now*/
+
+
+/*blog section start now*/
+.blog{
+    width: 100%;
+    padding:150px 0px 100px 0px;
+    background-color:#ffffff;
+}
+.blog .single-box {
+    padding-bottom:26px;
+}
+.blog .single-box .img-box{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.blog .single-box .img-box img{
+    width:100%;
+    display: block;
+    transition: all 500ms ease-in-out;
+}
+.blog .single-box .img-box img:hover{
+    scale:1.2;
+}
+.blog .single-box .content .marketing{
+    position: relative;
+}
+.blog .single-box .content .sale{
+    position:absolute;
+    top:-255.5px;
+    left:-29px;
+    color:#ffffff;
+    padding:8px 16px 8px 16px;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 200;
+    text-transform: capitalize;
+    background-color:#5032f2;
+}
+
+.blog .single-box .content{
+    width:100%;
+    padding:30px 30px;
+    background-color: #f6faff;
+}
+.blog .single-box .content .date{
+    color:#5032f2;
+    font-size: 16px;
+    font-family: "Rajdhani",sans-serif;
+    text-transform: capitalize;
+    
+}
+.blog .single-box .content .date .date-icon{
+    padding-right:10px;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+}
+.blog .single-box .content .title{
+    font-size:24px;
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 200;
+    color:#303030;
+    text-decoration: none;
+}
+.blog .single-box .content .view{
+    width:100%;
+    padding:10px 0px;
+    border-top:1px solid #d8d8d8;
+    margin-top:15px;
+}
+.blog .single-box .content .view .view-text{
+    text-decoration: none;
+    color:black;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+    text-transform: capitalize;
+}
+.blog .single-box .content .view .view-icon {
+    float: right;
+    color:#5032f2;
+    font-size:16px;
+}
+.blog .search{
+    padding:40px;
+    background-color:#f6faff;
+    width:100%;
+    margin-bottom:17px;
+}
+.blog .search .btn{
+    width:100%;
+    height:52px;
+    background-color:#ffffff;
+    position: relative;
+    border:none;
+
+   
+}
+
+.blog .search .btn .search-btn{
+    float: left;
+    text-decoration: none;
+    color:#767676;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+    padding-left:10px;
+    padding-top:7px;
+    border-radius: 5px;
+
+}
+
+.blog .search .btn .search-btn::before{
+    content:'';
+    position:absolute;
+    top:0px;
+    left:84%;
+    background-color:#5032f2;
+    width:55px;
+    height: 100%;
+    border-radius: 5px;
+   
+}
+.blog .search .btn .search-btn::after{
+    position:absolute;
+    content:"\f002";
+    top:12px;
+    left:90%;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size:18px;
+    color:#ffffff;
+ 
+}
+
+.blog .side-bar{
+    width:100%;
+    height:390px;
+    border-radius: 5px;
+    padding: 30px 10px 35px 30px;
+    background-color:#5032f2;
+}
+.blog .side-bar .side-img-box{
+    width:30%;
+    float:left;
+    padding-top:8px;
+}
+
+.blog .side-bar .text{
+    width:60%;
+    float:left;
+    padding-top:8px;
+ 
+}
+.blog .side-bar .side-img-box img{
+    height: 80px;
+    width:80px;
+    border-radius:3px;
+}
+.blog .side-bar .text .side-text{
+    color:white;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+}
+.blog .side-bar .text .date .date-icon{
+    color:#ffffff;
+    padding-right:10px;
+
+}
+.blog .side-bar .text .date{
+    color:#ada3e3;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+    padding-top:10px;
+
+}
+
+/*category section start now*/
+.blog .category-title{
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 400;
+    font-size:30px;
+    color: #353535;
+    text-transform: capitalize;
+    margin-top:40px;
+    margin-bottom:30px;
+
+}
+.blog .category{
+    padding:40px 25px;
+    background-color:#5032f2;
+    width:100%;
+    height:auto;
+
+}
+
+.blog .category .categoris-button{
+    padding:25px 35px 20px 30px;
+    background-color:#735bf5;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: all 500ms ease-in-out;
+
+}
+.blog .category .categoris-button:hover{
+    background-color:#4931ca;
+}
+.blog .category .categoris-button .categries-item{
+    float: left;
+    text-decoration: none;
+    color:#ffffff;
+    font-size:18px;
+    font-family: "Rajdhani",sans-serif;
+    position: relative;
+}
+.blog .category .categoris-button .invotion{
+    float: left;
+    transition: all 500ms ease-in-out;
+    transform: translateX(0px);
+    text-transform: capitalize;
+    
+}
+
+.blog .category .categoris-button:hover .invotion{
+    transform: translateX(18px);
+}
+
+.blog .category .categoris-button .categries-item::after{
+    content:'';
+    position: absolute;
+    width:20px;
+    height:2px;
+    left:-120px;
+    top:8px;
+    background-color: #ffffff;
+    transform: rotate(110deg);
+    transition: all 500ms ease-in-out;
+}
+.blog .category .categoris-button:hover .categries-item::after{
+    left:-12px;
+    top:12px;
+}
+.blog .category .categoris-button .categries-item::before{
+    content:'';
+    position: absolute;
+    width:20px;
+    height:2px;
+    left:-112px;
+    top:8px;
+    background-color: #ffffff;
+    transform: rotate(110deg);
+    transition: all 500ms ease-in-out;
+
+}
+.blog .category .categoris-button:hover .categries-item::before{
+    content:'';
+    position: absolute;
+    width:20px;
+    height:2px;
+    left:-20px;
+    top:12px;
+    background-color: #ffffff;
+    transform: rotate(110deg);
+
+}
+.blog .categoris-button  .list{
+   position: absolute;
+   left:270px;
+   right:120px;
+   float: right;
+}
+/*category section End now*/
+
+/*tags section start now*/
+.blog .tags{
+    width:100%;
+    padding:47px 20px 80px 30px;
+    height:350px;
+    background-color:#f6faff;
+    margin-top:40px;
+}
+.blog .tags .tags-title{
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 300;
+    font-size:30px;
+    color:#303030;
+    text-transform: capitalize;
+}
+.blog .tags .tags-list ul{
+    padding-left:0px;
+}
+.blog .tags .tags-list ul li{
+    list-style-type: none;
+    float: left;
+    margin: 8px 5px;
+    padding:14px 18px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    position:relative;
+   
+
+}
+.blog .tags .tags-list ul li::before{
+    content:'';
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    border-radius: 4px;
+    transform: scale(0,1);
+    z-index: -1;
+    background-color: blue;
+    transition: all 500ms ease-in-out;
+}
+.blog .tags .tags-list ul li:hover::before{
+    transform: scale(1,1);
+    z-index: 1;
+}
+.blog .tags .tags-list ul li a{
+    font-size:18px;
+    color:#303030;
+    font-family: "Rajdhani",sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+    text-transform: capitalize;
+}
+.blog .tags .tags-list ul li:hover a{
+    position: relative;
+    color:#ffffff;
+    z-index: 2;
+   
+}
+/*tags section End now*/
+
+/*follow us section start now*/
+.blog .follow-us {
+    margin-top:60px;
+    width:100%;
+    height:281px;
+    padding:40px 20px 40px 40px;
+    background-color: #f6faff;
+
+}
+.blog .follow-us .follow-title{
+    text-transform: capitalize;
+    font-size:30px;
+    font-family: "Rajdhani",sans-serif;
+    color:#303030;
+}
+.blog .follow-us .follw-link{
+   margin-top:40px;
+  
+}
+.blog .follow-us .follw-link ul{
+    padding-left:0px;
+}
+.blog .follow-us .follw-link ul li{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue transparent;
+    border-radius: 50%;
+    list-style-type: none;
+    float: left;
+    margin:60px 10px;
+    transition: all 500ms ease-in-out;
+   
+}
+.blog .follow-us .follw-link ul li:hover{
+    border: 1px solid blue;
+
+}
+.blog .follow-us .follw-link ul li a{
+    color:#5032f2;
+    font-size:16px;
+}
+
+/*follow us section End now*/
+
+
+/*blog section end now*/
+
+
+/*contacts section start now*/
+.contacts{
+    padding:100px 0px;
+    background:#eaeffd;
+    height:auto;
+
+}
+.contacts .contact-head .call{
+    font-size:16px;
+    color:blue;
+    font-family:"Rajdhani", sans-serif;
+    position: relative;
+    
+}
+.contacts .contact-head .call::before{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:1px;
+    left:410px;
+    top:12px;
+    background-color: #3e28b4;
+
+}
+
+.contacts .contact-head .call::after{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:1px;
+    left:756px;
+    top:12px;
+    background-color: #3e28b4;
+
+}
+.contacts .contact-head .call-heading{
+    color:42px;
+    color:black;
+    font-family:"Rajdhani", sans-serif;
+    font-weight: bold;
+
+}
+.contacts .contact-head .call-title{
+    color:36px;
+    color:blue;
+    font-family:"Rajdhani", sans-serif;
+    font-weight: bold;
+
+}
+.contacts .contact-head .call-title a{
+    color:blue;
+}
+
+/*contacts section end now*/
+
+
+/*fotter section start now*/
+
+
+.fotter{
+    padding-top:100px;
+    padding-bottom:5px;
+    padding-left: 0;
+    padding-right:0;
+    background-color: #5032f2;
+}
+.fotter .toko-img .img{
+    color:white;
+    background-color: white;
+}
+.fotter .toko-title{
+    margin-top:11px;
+}
+.fotter .toko-title .toko-text{
+    font-size:16px;
+    color: #a494f8;
+
+}
+.fotter .follow{
+    margin-left:45px;
+}
+.fotter .follow .follow-us{
+    color:white;
+    font-size:18px;
+    font-family:"Rajdhani", sans-serif;
+    font-weight:400;
+    text-transform: capitalize;
+    position: relative;
+
+}
+.fotter .follow .follow-us::after{
+    content:'';
+    position:absolute;
+    width:36px;
+    height:2px;
+    background-color: #ffffff;
+    top:13px;
+    left:-43px;
+}
+.fotter .fotter-icon ul{
+    padding:0px;
+    margin-left:-12px;
+}
+.fotter .fotter-icon ul li{
+    list-style-type: none;
+    float: left;
+    margin:0px 15px;
+}
+.fotter .fotter-icon ul li a{
+    color:#ffffff;
+    width:16px;
+    height:16px;
+}
+.fotter .fotter-header .fotter-hed{
+    color:#ffffff;
+    font-size:24px;
+    font-family:"Rajdhani", sans-serif;
+    font-weight: 500;
+    position:relative;
+   
+}
+.fotter .fotter-header .fotter-hed::after{
+    content:'';
+    position:absolute;
+    top:38px;
+    left:2px;
+    width:60px;
+    height:2px;
+    background-color: #ffffff;
+}
+.fotter .fotter-area ul{
+    padding:0px;
+    margin-left:-10px;
+
+}
+.fotter .fotter-area ul li{
+    margin:30px 0px;
+    list-style-type:none;
+    transition: all 380ms ease-in-out;
+    
+}
+.fotter .fotter-area ul li:hover{
+    transform: translateX(25px);
+    color:white;
+}
+.fotter .fotter-area ul li a{
+    text-decoration: none;
+    color:#e0cfcf;
+    font-size:16px;
+    font-family:"Rajdhani", sans-serif;
+    text-transform: capitalize;
+    transition: all 380ms ease-in-out;
+
+}
+.fotter .fotter-area ul li a:hover{
+    color:white;
+
+}
+.fotter .fotter-area ul li a .angles-fotter{
+    margin: 0px 10px;
+}
+
+.fotter .fotter-img-box .image{
+    width:33.333%;
+    float:left;
+    padding:10px 0px;
+
+}
+.fotter .fotter-img-box .image{
+    float: left;
+    width: 33.3333336%;
+    overflow:hidden;
+    display: block;
+    margin-bottom:20px;
+
+}
+.fotter .fotter-img-box .image  a{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.fotter .fotter-img-box .image a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    right: 2px;
+    left: 0;
+    width: 77%;
+    background-color: rgba(72, 68, 68,.5);
+    border-radius:20px;
+    transform: scale(0,0);
+    transition: all 500ms ease-in-out;
+}
+.fotter .fotter-img-box .image a:hover::before{
+    transform: scale(1,1);
+}
+.fotter .copy-right .copy-right-text{
+    font-size: 16px;
+    color:#b9adfa;
+
+}
+.fotter .hi-tech-parks{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+
+}
+/*fotter section end now*/
+
+/*blog page all css code End now*/

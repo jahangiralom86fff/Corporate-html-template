@@ -1,0 +1,749 @@
+
+
+
+*{
+    font-family: "Rajdhani", sans-serif;;
+}
+
+/*navbar section start now*/
+
+/*top-bar-section start now*/
+
+.top-bar-section {
+    width:100%;
+    background-color: #593def;
+    padding:10px 10px;
+    font-family: "Roboto", sans-serif;
+    
+}
+.top-bar-section .topbar-paragrap{
+   padding-top:3px;
+}
+.top-bar-section .topbar-pragraph{
+    color: white;
+    font-size:16px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+
+
+}
+.top-bar-section .topbar-icon{
+    float: right;
+    padding:0px;
+    width:40%;
+
+}
+.top-bar-section .support-tobbar{
+    float: left;
+    width:60%;
+    padding-left:20%;
+    
+}
+.top-bar-section .topbar-help{
+    color:#9088be;
+    font-size:15px;
+    float: left;
+    text-decoration: none;
+    line-height: 20px;
+}
+.top-bar-section .topbar-icon .topbar-list li{
+    list-style-type:none;
+    margin: 0px 12px;
+    float: left;
+    color: white;
+
+}
+.top-bar-section .topbar-icon .topbar-list li a{
+    color: white;
+}
+
+
+/*top-bar-section End now*/
+
+
+/*navbar section start now */
+.navbar-sectiion{
+    width:100%;
+    padding-top: 18px;
+
+    padding-bottom:130px;
+    background-color: white;
+}
+.navbar-sectiion .navbar-img .toko-navbar li{
+    float: left;
+    list-style-type: none;
+    margin: 0px 10px;
+
+}
+.navbar-sectiion .toko-img{
+    padding-top:-10px;
+}
+.navbar-sectiion .navbar-text{
+    color:#2d2c2c;
+    font-size:28px;
+    font-weight: bold;
+}
+.navbar-sectiion .navbar-contects .nav-bar-email .nav-bar-email-box{
+    float:left;
+    list-style-type: none;
+}
+.navbar-sectiion .navbar-contects .navbar-icon{
+    width: 20%;
+    padding: 15px 15px;
+    border-radius:30px;
+    color: white;
+    background:#593def;
+    text-align: center;
+    float: left;
+}
+.navbar-sectiion .navbar-contects .navbar-paragraph{
+    width: 68%;
+    float: left;
+    font-size: 14px;
+    color: #494848;
+    padding-left:14px;
+
+}
+
+/*navbar section end now */
+
+
+/*second navbar start now*/
+.main-navbar{
+    position: relative;
+}
+.sub-navbar{
+    width:100%;
+    padding-top: 30px;
+    padding-bottom:25px;
+    background-color:#5032f2;
+    border-radius: 6px;
+    position:absolute;
+    top:-79.5px;
+    opacity: 12245255;
+    box-shadow: 0px 0px 16px rgb(12, 12, 12);
+    z-index: 2;
+}
+.main-navbar .sub-navbar .list-navber li{
+    list-style-type: none;
+    float: left;
+    margin: 0px 30px;
+
+}
+.main-navbar .sub-navbar .list-navber li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    text-transform: capitalize;
+    position: relative;
+}
+.main-navbar .sub-navbar a::after{
+    content: '\f107';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    position: absolute;
+    top: -3px;
+    right: -20px;
+    transition: all 500ms ease-in-out;
+}
+.main-navbar .sub-navbar a:hover::after{
+    transform: rotate(180deg);
+}
+.main-navbar .sub-navbar a.not-icon::after{
+    display: none;
+}
+.main-navbar .icon-bar{
+    padding-right:20px;
+}
+
+.main-navbar .menu-icon{
+    padding-right:20px;
+    color: white;
+}
+.main-navbar .menu-bar{
+    padding:18px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.button-icon{
+    float:right;
+}
+.button-icon .icon-bar li{
+    list-style-type: none;
+    float: left;
+    padding-left:10px;
+}
+
+.main-navbar .sub-list{
+    position:relative;
+}
+.main-navbar .sub-list .sub-menu{
+    position: absolute;
+    top:46px;
+    left:-20px;
+    right:0px;
+    width:200px;
+    height:110px;
+    flex-direction: column;
+    padding: 18px 0px;
+    color:#2d2c2c;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(94, 86, 93, 0.91);
+    overflow: hidden;
+    opacity: 0;
+    transform: perspective(300px) rotateX(-18deg);
+    visibility:hidden;
+    transition: all 400ms ease-in-out;
+
+}
+.main-navbar .sub-list:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(300px) rotateX(0deg);
+}
+
+.main-navbar .sub-list .sub-menu li{
+    padding:6px 0px;
+    transition: all 500ms ease-in-out;
+}
+.main-navbar .sub-list .sub-menu li:hover{
+    transform: translateX(16px);
+}
+.main-navbar .sub-list .sub-menu li a{
+    text-decoration: none;
+    color:#2d2c2c;
+    font-size: 16px;
+    font-family:"Rajdhani", sans-serif;
+    position:relative;
+}
+.main-navbar .sub-list .sub-menu li a::before{
+    content: '\f061';
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    position: absolute;
+    top: -3px;
+    right: 20px;
+    left:-50px;
+    transition: all 500ms ease-in-out;
+}
+.main-navbar .sub-list .sub-menu li a:hover::before{
+    transform: translateX(30px);
+}
+
+/*second navbar End now*/
+
+/*navbar section End now*/
+
+
+/*faq section start now*/
+.faq-home{
+    width:100%;
+    padding:200px 0px;
+    background:url(../img-folder/faq-img/faq-home/FAQ-2.png);
+    position: relative;
+    overflow: hidden;
+
+}
+.faq-home::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height:100%;
+    top:0px;
+    left: 0px;
+    background-color: rgba(16, 12, 16, 0.8);
+}
+.faq-home .faq-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    
+}
+.faq-home .faq-title .text{
+    position: absolute;
+    color:white;
+    text-decoration: none;
+    font-size:46px;
+    z-index: 4255;
+    left:0px;
+  
+ 
+}
+.faq-home .faq-title .txt{
+    position: absolute;
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+    z-index: 4255;
+    left:0px;
+    top:30px;
+    width:100%;
+  
+
+}
+.faq-home .heading-title{
+    position: relative;
+}
+.faq-home .heading-title .txt{
+    position: absolute;
+    z-index: 2544;
+    color:white;
+    text-decoration: none;
+    top:30px;
+    word-spacing: 3px;
+
+}
+.faq-home .heading-title .txt .faq-text{
+    color:blue;
+}
+.faq-home .shape-topbar{
+    position: relative;
+}
+.faq-home .shape-topbar img{
+    position: absolute;
+    top:-440px;
+    left:60%;
+    z-index: 12544;
+    transform: rotate(-3deg);
+}
+.faq-home .shape{
+    position: relative;
+}
+.faq-home .shape img{
+    position: absolute;
+    top:-90px;
+    left:18%;
+    z-index: 45541;
+}
+
+/*faq section End now*/
+
+/*faq asked section end now*/
+.fq-asked{
+    padding:100px 0px;
+    background-color:#ffffff;
+    width: 100%;
+}
+.fq-asked .img-area img{
+    height: 535px;
+    width:570px;
+    border-radius: 1px;
+}
+.fq-asked .fq .fq-head{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Rajdhani", sans-serif;
+    position: relative;
+}
+.fq-asked .fq .fq-head::before{
+    content:'';
+    position:absolute;
+    width:80px;
+    height:1.5px;
+    background-color:#5032f2;
+    top:8px;
+    left:40px;
+}
+.fq-asked .single-head{
+    padding-top:18px;
+}
+.fq-asked .single-head h2{
+    color:#2d2c2c;
+    font-size: 42px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 200;
+}
+.fq-asked .single-paragraph{
+    padding-top:17px;
+}
+.fq-asked .single-paragraph p{
+    font-size: 16px;
+    color:#818181;
+}
+
+.fq-asked .fq-single-bolg .btn:hover{
+    background-color: #3e28b4;
+    color:#ffffff;
+}
+.fq-asked .accordion-button{
+    font-size: 20px;
+    color:#2d2c2c;
+    font-family: "Rajdhani", sans-serif;
+    background-color:#eaeffd;
+    padding: 14px;
+    margin-top:15px;
+
+}
+
+.fq-asked .accordion-button:not(.collapsed)::after{
+   transform: rotate(-90deg) !important;
+   float: right;
+
+}
+.fq-asked .accordion-button::after{
+    color: transparent !important;
+}
+.fq-asked .accordion-button::after:hover{
+    color:#ffffff;
+}
+
+
+.fq-asked .accordion-button:hover{
+    background-color: blue;
+    color:#ffffff;
+}
+.fq-asked .accordion-button:focus{
+    border:none;
+    box-shadow: none;
+ 
+}
+.fq-asked .accordion-body{
+    background-color: #eaeffd;
+    margin-bottom:12px;
+    font-size:16px;
+    font-family: "Rajdhani", sans-serif;
+}
+.fq-asked .single-text{
+    margin-top:35px;
+}
+.fq-asked .single-text .fq-content{
+    font-size:16px;
+    color:#2d2c2c;
+    font-family: "Rajdhani",sans-serif;
+}
+/*faq asked section end now*/
+
+/*fancy box are start now*/
+
+.fancy-box{
+    width: 100%;
+    height:600px;
+    background:url(../img-folder/faq-img/freequenty/fancy-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.fancy-box::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(16, 12, 16, 0.5);
+}
+.fancy-box .fancy-box-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fancy-box .fancy-box-btn .btn{
+    background-color:#ffffff;
+    width:115px;
+    height: 118px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    position: relative;
+}
+.fancy-box .fancy-box-btn .btn::before{
+    content: '';
+    position: absolute;
+    border:20px solid  rgba(247, 241, 244, 0.13);
+    background-color: rgba(247, 241, 244, 0.13);
+    top:-20px;
+    left:-20px;
+    bottom:-20px;
+    right:-20px;
+    z-index:1;
+    border-radius: 50%;
+    animation:blom 1500ms linear infinite;
+    opacity: 0;
+
+}
+.fancy-box .fancy-box-btn .btn::after{
+    content: '';
+    position: absolute;
+    border:20px solid  rgba(247, 241, 244, 0.13);
+    background-color: rgba(247, 241, 244, 0.13);
+    top:-20px;
+    left:-20px;
+    bottom:-20px;
+    right:-20px;
+    z-index:1;
+    border-radius: 50%;
+    animation:blom-to 1500ms linear infinite;
+    opacity: 0;
+    animation-delay: .4s;
+
+}
+
+@keyframes blom {
+    0%{
+        transform: scale(.5);
+      
+    }
+    50%{
+       opacity: 1;
+    }
+    100%{
+        transform: scale(1.5);
+       
+    }
+}
+@keyframes blom-to {
+    0%{
+        transform: scale(.5);
+      
+    }
+    50%{
+       opacity: 1;
+  
+    }
+    100%{
+        transform: scale(1.5);
+      
+    }
+}
+.fancy-box .fancy-box-btn .btn:focus{
+    background-color:#ffffff;
+}
+
+.fancy-box .fancy-box-btn .btn .play-btn{
+    color:blue;
+    font-size:40px;
+}
+/*fancybox End now*/
+
+/*contacts section start now*/
+.contacts{
+    padding:100px 0px;
+    background:#ffffff;
+    height:auto;
+
+}
+.contacts .contact-head .call{
+    font-size:16px;
+    color:blue;
+    font-family:"Rajdhani", sans-serif;
+    position: relative;
+    
+}
+.contacts .contact-head .call::before{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:1px;
+    left:410px;
+    top:12px;
+    background-color: #3e28b4;
+
+}
+
+.contacts .contact-head .call::after{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:1px;
+    left:756px;
+    top:12px;
+    background-color: #3e28b4;
+
+}
+.contacts .contact-head .call-heading{
+    color:42px;
+    color:black;
+    font-family:"Rajdhani", sans-serif;
+    font-weight: bold;
+
+}
+.contacts .contact-head .call-title{
+    color:36px;
+    color:blue;
+    font-family:"Rajdhani", sans-serif;
+    font-weight: bold;
+
+}
+.contacts .contact-head .call-title a{
+    color:blue;
+}
+
+/*contacts section end now*/
+
+/*fotter section start now*/
+
+
+.fotter{
+    padding-top:100px;
+    padding-bottom:5px;
+    padding-left: 0;
+    padding-right:0;
+    background-color: #5032f2;
+}
+.fotter .toko-img .img{
+    color:white;
+    background-color: white;
+}
+.fotter .toko-title{
+    margin-top:11px;
+}
+.fotter .toko-title .toko-text{
+    font-size:16px;
+    color: #a494f8;
+
+}
+.fotter .follow{
+    margin-left:45px;
+}
+.fotter .follow .follow-us{
+    color:white;
+    font-size:18px;
+    font-family:"Rajdhani", sans-serif;
+    font-weight:400;
+    text-transform: capitalize;
+    position: relative;
+
+}
+.fotter .follow .follow-us::after{
+    content:'';
+    position:absolute;
+    width:36px;
+    height:2px;
+    background-color: #ffffff;
+    top:13px;
+    left:-43px;
+}
+.fotter .fotter-icon ul{
+    padding:0px;
+    margin-left:-12px;
+}
+.fotter .fotter-icon ul li{
+    list-style-type: none;
+    float: left;
+    margin:0px 15px;
+}
+.fotter .fotter-icon ul li a{
+    color:#ffffff;
+    width:16px;
+    height:16px;
+}
+.fotter .fotter-header .fotter-hed{
+    color:#ffffff;
+    font-size:24px;
+    font-family:"Rajdhani", sans-serif;
+    font-weight: 500;
+    position:relative;
+   
+}
+.fotter .fotter-header .fotter-hed::after{
+    content:'';
+    position:absolute;
+    top:38px;
+    left:2px;
+    width:60px;
+    height:2px;
+    background-color: #ffffff;
+}
+.fotter .fotter-area ul{
+    padding:0px;
+    margin-left:-10px;
+
+}
+.fotter .fotter-area ul li{
+    margin:30px 0px;
+    list-style-type:none;
+    transition: all 380ms ease-in-out;
+    
+}
+.fotter .fotter-area ul li:hover{
+    transform: translateX(25px);
+    color:white;
+}
+.fotter .fotter-area ul li a{
+    text-decoration: none;
+    color:#e0cfcf;
+    font-size:16px;
+    font-family:"Rajdhani", sans-serif;
+    text-transform: capitalize;
+    transition: all 380ms ease-in-out;
+
+}
+.fotter .fotter-area ul li a:hover{
+    color:white;
+
+}
+.fotter .fotter-area ul li a .angles-fotter{
+    margin: 0px 10px;
+}
+
+.fotter .fotter-img-box .image{
+    width:33.333%;
+    float:left;
+    padding:10px 0px;
+
+}
+.fotter .fotter-img-box .image{
+    float: left;
+    width: 33.3333336%;
+    overflow:hidden;
+    display: block;
+    margin-bottom:20px;
+
+}
+.fotter .fotter-img-box .image  a{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.fotter .fotter-img-box .image a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    right: 2px;
+    left: 0;
+    width: 77%;
+    background-color: rgba(72, 68, 68,.5);
+    border-radius:20px;
+    transform: scale(0,0);
+    transition: all 500ms ease-in-out;
+}
+.fotter .fotter-img-box .image a:hover::before{
+    transform: scale(1,1);
+}
+.fotter .copy-right .copy-right-text{
+    font-size: 16px;
+    color:#b9adfa;
+
+}
+.fotter .fotter-img-box .fotter-side-img{
+    border-radius: 16px;
+}
+.fotter .fotter-shape{
+    position: relative;
+}
+.fotter .fotter-shape img{
+    position: absolute;
+    top:50px;
+    left:250px;
+    width:220px;
+    height:250px;
+    transform: rotate(170deg);
+}
+.fotter .hi-tech-parks{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:16px;
+    font-family: "Rajdhani",sans-serif;
+
+}
+/*fotter section end now*/
+
